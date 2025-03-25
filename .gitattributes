@@ -1,0 +1,5 @@
+# Force GitHub to recognize Dart files as the primary language
+*.dart linguist-language=Dart
+
+# Ignore C++ files in the windows/ folder for language stats
+windows/* linguist-vendored
